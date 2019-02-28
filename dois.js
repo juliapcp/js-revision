@@ -1,0 +1,1 @@
+console.log(x); //vai mostrar a var de outro arquivo porque ela é global
