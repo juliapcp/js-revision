@@ -12,3 +12,16 @@ let v1 = null;
 console.log(v1); //null = sem valor!
 v1=undefined;
 console.log(v1); //valor indefinido, diferente de uma variavel não definida, um valor indefinido mas que pode ser definido em algum momento porque pertence a uma variável definida;
+
+let v3 = 8;
+let v4 = v3;
+v3 = 5;
+console.log(v3, v4); //cada uma tem o seu espaço na memória (saída: 5 8)
+
+//tipo (number, array, string, object)
+console.log(typeof(v3)); //number
+console.log(typeof("oi")); //string
+console.log(typeof([[1],[2]]));
+console.log(typeof([1,2]));
+
+
